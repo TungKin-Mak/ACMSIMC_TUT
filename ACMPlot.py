@@ -72,7 +72,7 @@ def get_axis(cNr):
 
 def plot_it(ax, ylabel, d):
     count = 0
-    for k, v in d.items():
+    for _, v in d.items():
         if count == 0:
             count += 1
             # ax.plot(time, v, '--', lw=2, label=k)
